@@ -1,6 +1,6 @@
 class FriendsController < ApplicationController
   # Add a login to gain access to this page.
-  http_basic_authenticate_with :name => "bach", :password => "bwv1042"
+  # http_basic_authenticate_with :name => "bach", :password => "bwv1042"
 
   # GET /friends
   # GET /friends.json
