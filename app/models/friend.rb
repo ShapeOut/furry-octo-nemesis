@@ -6,5 +6,7 @@ class Friend < ActiveRecord::Base
     thumb: '100x100>',
     square: '200x200#',
     medium: '300x300>'
-  }
+  },
+  :path => ":rails_root/public/system/:attachment/:id/:style/:filename",
+    \:url => "/system/:attachment/:id/:style/:filename"
 end
